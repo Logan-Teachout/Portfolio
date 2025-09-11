@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+  <meta name="format-detection" content="telephone=no">
+
+  <title>Portfolio "Peculiar Journeys"</title>
+  
+  <style>
+    
+    body {
+      margin: 0;
+      font-family: 'Spectral', serif;
+      background-color: #1e1e1e;
+      color: #646464;
+    }
+
+    .top-header {
+      background-color: #000;
+      color: #646464;
+      padding: 1rem;
+      text-align: center;
+      position: relative;
+    }
+
+    .back-button {
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #87a5ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .back-button:hover {
+      text-decoration: underline;
+    }
+    
+    .bottom-header {
+      background: #87a5ff;
+      color: #000;  
+      display: flex;
+      align-items: center;  
+      justify-content: center;
+      padding: 2px 10px;     
+      height: auto;
+      min-height: 0px;
+      line-height: 1;
+    }
+
+    main {
+      padding: 2rem;
+      min-height: 70vh;
+    }
+
+    footer {
+      background-color: #000;
+      color: #646464;
+      text-align: left;
+      padding: 1rem;
+      position: relative;
+      text-decoration: none;  
+      bottom: 0;
+      width: 100%;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    @media (max-width: 600px) {
+      .grid {
+        grid-template-columns: 1fr; 
+        gap: 15px;                
+        padding: 10px;             
+      }
+    
+      .button-title {
+        font-size: 0.95rem; 
+      }
+    }
+
+    .button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background: #1e1e1e;
+      border: 2px solid #87a5ff;
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-decoration: none;  
+      color: inherit;          
+    }
+
+    .button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .button img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      background-color: #000;
+      object-fit: contain;
+    }
+
+    .button-title {
+      padding: 10px;
+      font-weight: bold;
+    }
+    
+  </style>
+  
+</head>
+
+  
+  
+<body>
+  
+<header>
+  
+  <div class="top-header">
+    <a href="index.html" class="back-button"><~ Back</a>
+    <h1>Logan Teachout's Portfolio</h1>
+  </div>
+  
+  <div class="bottom-header">
+    <p><strong>Current Project: </strong><i>Anime Highschool Tabletop System</i></p>
+  </div>
+  
+</header>
+
+  <main>
+
+    <p>
+      This was a project I've been working on over the course of several years of changes and playtesting. A tabletop system based off of the popular anime
+      "Jojos Bizarre Adventures" that I've taken to calling the "Peculiar Journeys" system. I have all of the different editions documented so I can look back and
+      see how much it has changed from being some text in a notes app on my phone to the fully completed version it is now. I'm planning to eventually add some
+      example "stands" to the folder because they all have to be custom made per character because of how different they can be in cannon. This shows my dedication
+      to worldbuilding because of my experience with tabletop games, as I've had to run several different games to playtest the system and made new and engaging
+      stories for each section. You can view the folder with all the different editions 
+      <a href="https://drive.google.com/drive/folders/1g6K1vQKU_w1tJEY2-LgL_LnNz8Zi1t9a?usp=drive_link" target="_blank">here.</a>
+    </p>
+    
+  </main>
+
+  <footer>
+    <p>
+      <strong>Contact Me:</strong> <br>
+      Email: Logan.Teachout@gmail.com <br>
+      Phone: 910-568-8751
+    </p>
+  </footer>
+</body>
+  
+</html>

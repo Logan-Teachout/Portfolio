@@ -121,6 +121,16 @@
       padding: 10px;
       font-weight: bold;
     }
+
+    .translucent-box {
+      background-color: rgba(0, 0, 0, 0); 
+      color: #646464;                        
+      padding: 15px;
+      border-radius: 10px;
+      max-width: 600px;                    
+      margin: 20px auto;   
+      backdrop-filter: blur(5px);  
+    }
     
   </style>
   
@@ -145,7 +155,7 @@
 
   <main>
 
-    <p>
+    <p class="translucent-box">
       This starter area generator was something fun I made in high school. The basis for the code originated from something
       my dad put together which used dice rolls to generate areas. I started to use it for more than just starter areas
       though, and ended up programming it into what it is now so I could do it without rolling dice. A recent addition

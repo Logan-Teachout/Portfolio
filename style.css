@@ -116,7 +116,7 @@
     .translucent-box {
       background-color: rgba(0, 0, 0, 0); 
       color: #646464;                        
-      padding: 15px;
+      padding: 5px;
       border-radius: 10px;
       max-width: 600px;                    
       margin: 20px auto;   

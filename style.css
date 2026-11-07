@@ -71,8 +71,8 @@
         padding: 10px;             
       }
 
-      .button-invisible {
-        display: none
+      .invisible {
+        display: none !important;
       }
     
       .button-title {
